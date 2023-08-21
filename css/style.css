@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25vw;
+  color: rgb(108, 108, 108);
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  color: cadetblue;
+  margin: 0 0 0 0.5em;
+}
+
+.active {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.55rem;
+  background-color: rgb(104, 153, 160);
+  color: gainsboro;
+  padding: 0.3em;
+  margin: 0 0 0.5em;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  border-bottom: 0.5px solid black;
+}
+
+main {
+  padding: 0 20rem 0 20rem;
+}
+
+.content {
+  margin: 3rem 0 2em;
+}
+
+h2 {
+  margin: 0 0 0.5em;
+  font-size: 1.25rem;
+  color: rgb(104, 153, 160);
+}
+
+.space-after-1rem {
+  margin: 0 0 0.7rem;
+}
+
+.prod-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 2em;
+}
+
+.prod-flexbox-row {
+  display: flex;
+  gap: 2emf;
+}
+
+.item-flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.contact-info {
+  width: 50%;
+  margin: 3rem 14.5vw;
+}
+
+.text-sz-085rem {
+  font-size: 0.85rem;
+}/*# sourceMappingURL=style.css.map */
