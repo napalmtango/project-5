@@ -57,11 +57,12 @@ h2 {
   align-items: center;
   text-align: center;
   margin: 0 0 2em;
+  gap: 1.5em;
 }
 
 .prod-flexbox-row {
   display: flex;
-  gap: 2emf;
+  gap: 2em;
 }
 
 .item-flexbox {
@@ -80,4 +81,9 @@ p {
 
 .text-sz-085rem {
   font-size: 0.85rem;
+}
+
+.bold-cadetblue {
+  color: cadetblue;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
